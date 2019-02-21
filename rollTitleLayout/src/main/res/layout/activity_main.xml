@@ -18,11 +18,11 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/ic_back" />
 
-        <ViewFlipper
-            android:id="@+id/viewflipper"
+        <com.github.tianmu19.rolllayout.RollTitleLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:id="@+id/rolllayout"
+            android:layout_height="match_parent"/>
 
 
     </LinearLayout>
